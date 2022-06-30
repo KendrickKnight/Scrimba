@@ -11,23 +11,29 @@
 
 
     <section>
-        <div>
-            <h3>Hawks</h3>
-            <p id="team1">0</p>
-            <div>
-                <button onclick="addScoreT1(1)">+1</button>
-                <button onclick="addScoreT1(2)">+2</button>
-                <button onclick="addScoreT1(3)">+3</button>
+        <div class="scores-container">
+            <div class="scores">
+                <h2>Hawks</h2>
+                <p id="team1">0</p>
+                <div class="score-buttons">
+                    <button onclick="addScoreT1(1)">+1</button>
+                    <button onclick="addScoreT1(2)">+2</button>
+                    <button onclick="addScoreT1(3)">+3</button>
+                </div>
             </div>
-        </div>
 
-        <div>
-            <h3>Lions</h3>
-            <p id="team2">0</p>
-            <div>
-                <button onclick="addScoreT2(1)">+1</button>
-                <button onclick="addScoreT2(2)">+2</button>
-                <button onclick="addScoreT2(3)">+3</button>
+            <div class="new-game" onclick="newGame()">
+                <button><h3>New Game</h3></button>
+            </div>
+    
+            <div class="scores">
+                <h2>Lions</h2>
+                <p id="team2">0</p>
+                <div class="score-buttons">
+                    <button onclick="addScoreT2(1)">+1</button>
+                    <button onclick="addScoreT2(2)">+2</button>
+                    <button onclick="addScoreT2(3)">+3</button>
+                </div>
             </div>
         </div>
     </section>
